@@ -23,7 +23,7 @@ echo 'Installing mysqld'
 /usr/bin/mysql_install_db --datadir=$OPENSHIFT_MYSQL_DIR/data || error 'Failed to create mysqldb', 119
 
 client_result ""
-client_result "MySQL 5.1 database added.  Please make note of these credentials:"
+client_result "MySQL 5.5 database added.  Please make note of these credentials:"
 client_result ""
 client_result "       Root User: $username"
 client_result "   Root Password: $password"
